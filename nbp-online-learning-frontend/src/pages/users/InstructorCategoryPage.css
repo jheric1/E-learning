@@ -1,0 +1,59 @@
+.userCategoryPage__container {
+    display: flex;
+  }
+  
+  .userCategoryPage__sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  
+  .userCategoryPage__content {
+    width: 70%;
+    height: fit-content;
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  .userCategoryPage__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .userCategoryPage__content--categoriesList {
+    margin-top: 10px;
+    border-bottom-style: inset;
+    border-right-style: inset;
+    border: 1px solid grey;
+    justify-content: center;
+  }
+  
+  .userCategoryPage__item {
+    background-color: #e0f7fa; /* Svetloplava boja */
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .userCategoryPage__item h4 {
+    margin-bottom: 5px;
+  }
+  
+  .userCategoryPage__item p {
+    margin-bottom: 5px;
+  }
+  
+  .userCategoryPage__item a {
+    color: #007bff; /* Plava boja linka */
+    text-decoration: underline;
+  }
+  
+  .userCategoryPage__item a:hover {
+    text-decoration: underline;
+  }
+
+  

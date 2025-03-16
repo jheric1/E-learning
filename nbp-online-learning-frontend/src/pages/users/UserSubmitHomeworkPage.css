@@ -1,0 +1,42 @@
+.userProfilePage__container {
+    display: flex;
+}
+
+.userProfilePage__sidebar {
+    position: sticky;
+    top: 0;
+}
+
+.userProfilePage__content {
+    background-color: #e0f7fa; 
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    height: 70%;
+}
+
+#name {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    border: 2px solid #e0f7fa;
+    border-radius: 6px;
+  }
+
+
+
+.userProfilePage__content--table {
+    width: 70%;
+    height: 60%;
+    font-style: italic;
+    font-weight: 400;
+    background-color: #e0f7fa; 
+    margin: 20px auto;
+}
+td{
+    text-align: left;
+}
+.btn2 {
+    background-color: #e0f7fa; 
+    margin: 10px;
+}

@@ -1,0 +1,25 @@
+.enroll-button {
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  .freeCoursesPage__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .freeCoursesPage__content {
+    margin-left: 20px; /* Prilagodite margine prema potrebi */
+  }
+  
+  .freeCoursesPage__content--table {
+    width: 100%;
+    max-width: 800px; /* Prilagodite širinu prema potrebi */
+    margin-top: 20px; /* Prilagodite margine prema potrebi */
+  }
+  
+  .enroll-button {
+    padding: 5px 10px;
+  }
+  
+  /* Ostale stilizacije prema potrebi */
+    

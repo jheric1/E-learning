@@ -1,0 +1,24 @@
+.adminAddLessonPage__container {
+    display: flex;
+}
+
+.adminAddLessonPage__sidebar {
+    position: sticky;
+    top: 0;
+    flex: 0.01;
+    height: 100vh;
+}
+
+.adminAddLessonPage__content {
+    margin: 5px;
+    padding: 8px;
+    flex: 0.99;
+}
+
+.adminAddLessonPage__content--button {
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    background-color: rgb(68 177 49);
+    color: white;
+}

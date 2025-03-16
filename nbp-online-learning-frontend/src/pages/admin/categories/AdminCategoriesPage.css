@@ -1,0 +1,46 @@
+.adminCategoriesPage__container {
+    display: flex;
+}
+
+.adminCategoriesPage__sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.adminCategoriesPage__content {
+    display: grid;
+    margin-left: 5rem;
+    grid-template-columns: 500px 500px;
+    grid-auto-rows: min-content;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.adminCategoriesPage__content--categoriesList {
+    margin-top: 10px;
+    border: 5px solid rgb(137, 203, 211);
+    width: 500px;
+    
+}
+
+.adminCategoriesPage__content--button {
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    background-color: rgb(68 177 49);
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.d-flex{
+    border: 0px;
+    display: flex;
+}

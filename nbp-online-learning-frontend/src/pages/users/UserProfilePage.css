@@ -1,0 +1,30 @@
+.userProfilePage__container {
+    display: flex;
+}
+
+.userProfilePage__sidebar {
+    position: sticky;
+    top: 0;
+}
+
+.userProfilePage__content {
+    background-color: #79a5e7; 
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.userProfilePage__content--profilePic {
+    border: 2px solid rgb(42, 4, 166);
+    margin-top: 20px;
+}
+
+.userProfilePage__content--table {
+    width: 50%;
+    font-style: italic;
+    font-weight: 400;
+    border-color: rgb(42, 4, 166);
+    margin: 20px auto;
+    
+}

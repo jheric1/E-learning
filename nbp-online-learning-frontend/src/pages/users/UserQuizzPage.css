@@ -1,0 +1,180 @@
+.userProfilePage__container {
+    display: flex;
+}
+
+.userProfilePage__sidebar {
+    position: sticky;
+    top: 0;
+}
+
+.userProfilePage__content {
+    background-color: rgb(103, 147, 222);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    height: 70%;
+}
+
+#name {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    border: 2px solid rgb(42, 4, 166);
+    border-radius: 6px;
+  }
+
+
+
+.userProfilePage__content--table {
+    width: 70%;
+    height: 60%;
+    font-style: italic;
+    font-weight: 400;
+    border-color: rgb(42, 4, 166);
+    margin: 20px auto;
+}
+td{
+    text-align: left;
+}
+.btn2 {
+    background-color: rgb(42, 4, 166);
+    margin: 10px;
+}
+.completed-message {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.quizz-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quizz-question {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .question-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .quizz-question textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .max-points {
+    margin-top: 10px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .intro-quizz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    width: inherit;
+  }
+  .descriptionQ{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    font-style: italic;
+  }
+  .description-text{
+    margin-left: 270px;
+    margin-top: 40px;
+  }
+  .userProfilePage__container {
+    display: flex;
+  }
+  
+  .userProfilePage__sidebar {
+    width: 250px;
+  }
+  
+  .quizz-container {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .answer-option input {
+    margin-right: 10px; /* Add space between checkbox and label */
+  }
+  
+  .descriptionQ {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .intro-quizz {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center;  /* Center text within the elements */
+    margin-top: 20px; /* Adjust this value as needed */
+   margin-bottom: 20px;
+  }
+  
+  .intro-quizz h1,
+  .intro-quizz p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .quizz-question {
+    background-color: #e0f7fa; 
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-weight: bold;
+  }
+  
+  .max-points {
+    font-style: italic;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  
